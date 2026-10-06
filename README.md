@@ -4,14 +4,23 @@ Hands-on course notebooks on classical density functional theory (cDFT) applied 
 
 Material available in Portuguese and English. The notebooks are designed to run in [Google Colab](https://colab.research.google.com/) without a local Python installation.
 
+> [!IMPORTANT]
+> **Students:** use only the notebooks whose filenames end in `_student.ipynb`. These editions do not contain the exercise answer keys.  
+> **Alunos:** utilizem apenas os notebooks cujos nomes terminam em `_student.ipynb`. Essas versões não contêm os gabaritos dos exercícios.
+
 ## Course notebooks
 
 | Language | Notebook | Open in Colab |
 |---|---|---|
-| Português (Brasil) | `cDFT_Adsorption_Course_PyDFTlj_PTBR_student.ipynb` | [![Open PT-BR notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pspigor/PyDFTlj-cDFT-adsorption-course/blob/main/cDFT_Adsorption_Course_PyDFTlj_PTBR_student.ipynb) |
-| English | `cDFT_Adsorption_Course_PyDFTlj_EN_student.ipynb` | [![Open English notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pspigor/PyDFTlj-cDFT-adsorption-course/blob/main/cDFT_Adsorption_Course_PyDFTlj_EN_student.ipynb) |
+| Português (Brasil) | `cDFT_Adsorption_Course_PyDFTlj_v7_PTBR_student.ipynb` | [![Open PT-BR notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pspigor/PyDFTlj-course/blob/main/cDFT_Adsorption_Course_PyDFTlj_v7_PTBR_student.ipynb) |
+| English | `cDFT_Adsorption_Course_PyDFTlj_v7_ENG_student.ipynb` | [![Open English notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pspigor/PyDFTlj-course/blob/main/cDFT_Adsorption_Course_PyDFTlj_v7_ENG_student.ipynb) |
 
-The public notebooks are the student editions and do not include the exercise answer keys.
+The repository also contains instructor editions with the answer keys:
+
+- `cDFT_Adsorption_Course_PyDFTlj_v7_PTBR.ipynb`;
+- `cDFT_Adsorption_Course_PyDFTlj_v7_ENG.ipynb`.
+
+The absence of the `_student` suffix identifies an instructor edition.
 
 ## Topics covered
 
@@ -41,18 +50,18 @@ The notebooks install their Python dependencies directly in the Colab session. A
 
 ```text
 .
-├── cDFT_Adsorption_Course_PyDFTlj_PTBR_student.ipynb
-├── cDFT_Adsorption_Course_PyDFTlj_EN_student.ipynb
+├── cDFT_Adsorption_Course_PyDFTlj_v7_PTBR.ipynb
+├── cDFT_Adsorption_Course_PyDFTlj_v7_PTBR_student.ipynb
+├── cDFT_Adsorption_Course_PyDFTlj_v7_ENG.ipynb
+├── cDFT_Adsorption_Course_PyDFTlj_v7_ENG_student.ipynb
 └── README.md
 ```
-
-Instructor editions containing the answer keys are maintained separately and are not included in this public repository.
 
 ## Português
 
 Este repositório contém notebooks práticos sobre teoria clássica do funcional da densidade (cDFT) aplicada à adsorção, inteiramente baseados no repositório [PyDFTlj](https://github.com/elvissoares/PyDFTlj).
 
-O material foi preparado para execução no Google Colab e não exige instalação local do Python. As versões públicas são destinadas aos alunos e não contêm os gabaritos dos exercícios.
+O material foi preparado para execução no Google Colab e não exige instalação local do Python. Os alunos devem utilizar exclusivamente os arquivos terminados em `_student.ipynb`, que não contêm os gabaritos dos exercícios. Os arquivos sem esse sufixo correspondem às versões do professor e incluem as resoluções.
 
 Para começar, escolha o idioma na tabela no início deste documento e clique no respectivo botão **Open in Colab**. Execute as células na ordem indicada no notebook. O uso de GPU é opcional e se torna especialmente relevante nos exemplos tridimensionais e na análise de mudança de escala.
 
